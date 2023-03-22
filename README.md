@@ -5,9 +5,9 @@
 定义方法：`__constant__`  
 传输数据采用函数：`cudaMemcpyToSymbol()`
 
-2. 事件：本质上为GPU的时间戳
-定义方法：`cudaEvent_t start; cudaEventCreate(&start);`
-记录当前时间点：`cudaEventRecord(start, 0);`
-事件同步函数：`cudaEventSynchronize(stop)`, 在stop之前的语句未执行之前阻塞后面的语句。
-计算两个事件之间经历的时间：`cudaEventElapsedTime(&elapsedTime, start, stop)`
+2. 事件：本质上为GPU的时间戳  
+定义方法：`cudaEvent_t start; cudaEventCreate(&start);`  
+记录当前时间点：`cudaEventRecord(start, 0);`  
+事件同步函数：`cudaEventSynchronize(stop)`, 在stop之前的语句未执行之前阻塞后面的语句。  
+计算两个事件之间经历的时间：`cudaEventElapsedTime(&elapsedTime, start, stop)`  
 销毁事件：`cudaEventDestroy()`
