@@ -1,0 +1,18 @@
+﻿  Compiling CUDA source file Ray Tracing.cu...
+  
+  D:\Visual Studio Project Library\CUDA\CUDA By Example\Chapter Two\Memory\Memory>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc143.pdb" -o "D:\Visual Studio Project Library\CUDA\CUDA By Example\Chapter Two\Memory\Memory\x64\Debug\Ray Tracing.cu.obj" "D:\Visual Studio Project Library\CUDA\CUDA By Example\Chapter Two\Memory\Memory\Ray Tracing.cu" 
+D:\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(127): warning C4005: “CALLBACK”: 宏重定义
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include\../common/cpu_bitmap.h(49): warning #2464-D: conversion from a string literal to "char *" is deprecated
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+D:\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(127): warning C4005: “CALLBACK”: 宏重定义
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include\../common/cpu_bitmap.h(49): warning #2464-D: conversion from a string literal to "char *" is deprecated
+  
+  Remark: The warnings can be suppressed with "-diag-suppress <warning-number>"
+  
+  Ray Tracing.cu
+  tmpxft_00005454_00000000-7_Ray Tracing.cudafe1.cpp
+    正在创建库 D:\Visual Studio Project Library\CUDA\CUDA By Example\Chapter Two\Memory\x64\Debug\Memory.lib 和对象 D:\Visual Studio Project Library\CUDA\CUDA By Example\Chapter Two\Memory\x64\Debug\Memory.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  Memory.vcxproj -> D:\Visual Studio Project Library\CUDA\CUDA By Example\Chapter Two\Memory\x64\Debug\Memory.exe
